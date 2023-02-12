@@ -82,7 +82,7 @@ const AppProvider = ({ children }) => {
   }, []);
 
   useEffect(() => {
-    // getGithubUser();
+    getGithubUser();
   }, [searchText, getGithubUser]);
 
   return (
